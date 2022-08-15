@@ -1,0 +1,156 @@
+@font-face {
+  font-family: norseBold;
+  src: url(fonts/Norse-Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.right {
+  font-family: sans-serif;
+  width: 63vw;
+  background-color: rgb(241, 241, 241);
+  padding: 60px 0;
+}
+
+.left {
+  font-family: sans-serif;
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  width: 37vw;
+  position: relative;
+}
+
+/* Odin logo image height */
+img {
+  height: 18vh;
+  width: 15vh;
+}
+
+.master {
+  font-family: norseBold;
+  font-size: 5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 25vh;
+  width: 100%;
+
+  position: absolute;
+  top: 150px;
+}
+
+.photo-license {
+  font-size: 0.9rem;
+  color: white;
+
+  position: absolute;
+  bottom: 20px;
+  left: 25%;
+}
+
+p > a {
+  text-decoration: underline;
+  color: white;
+}
+
+.intro {
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  padding-left: 35px;
+  padding-right: 70px;
+  margin-bottom: 50px;
+}
+
+.first-para {
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  column-gap: 50px;
+  row-gap: 30px;
+
+  margin-bottom: 15px;
+  padding: 15px 70px 15px 35px;
+
+  box-shadow: 0px 2px 8px rgb(196, 196, 196);
+}
+
+h2 {
+  flex: 0 1 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+label {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: rgb(104 104 104);
+}
+
+input {
+  height: 25px;
+  border: 1px solid #e9ecf1;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #3a6aca;
+  box-shadow: 2px 2px 2px #8d8f94;
+}
+
+input:invalid {
+  outline: none;
+  border: 1px solid red;
+}
+
+.account {
+  padding-left: 35px;
+  margin-top: 20px;
+}
+
+.submit {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background-color: #596d48;
+
+  border: none;
+  border-radius: 6px;
+
+  padding: 10px 35px;
+  margin-bottom: 30px;
+}
+
+.submit:hover {
+  background-color: #7c9665;
+  cursor: pointer;
+}
+
+div > a:link,
+div > a:visited {
+  color: #809c68;
+  text-decoration: none;
+  font-weight: 600;
+}
